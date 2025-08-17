@@ -29,4 +29,4 @@ if res.status_code == 200:
     print(f'Linguagem: {linguagem[cod_linguagem]}')
 
 else:
-    print('erro')
+    print('Erro. Verifique o nome do país digitado e tente novamente.')

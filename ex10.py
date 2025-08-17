@@ -16,4 +16,4 @@ if res.status_code == 200:
     if cidade != 'São Paulo':
         print(f'Este endereço está fora da cidade de São Paulo! Está localizado em {cidade}.')
 else:
-    print('Erro')
+    print('Erro. Verifique o CEP digitado e tente novamente.')

@@ -11,4 +11,4 @@ if res.status_code == 200:
 
     print(f'1 real equivale {siglaMoeda} {brl}')
 else:
-    print('erro')
+    print('Erro. Verifique a sigla digitada e tente novamente.')
